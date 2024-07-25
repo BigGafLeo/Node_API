@@ -99,7 +99,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    'mongodb+srv://admin:admin@nodejs.blabqcm.mongodb.net/messages?retryWrites=true&w=majority&appName=NodeJS',
+    'Not today my friend',
   )
   .then(result => {
     app.listen(8080);
